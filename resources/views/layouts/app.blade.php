@@ -8,9 +8,13 @@
     @vite('resources/css/app.css')
     @yield('style')
 </head>
-<body>
-    @yield('content')
+<body class="bg-primary-silver">
+    @include('layouts.navbar')
+    <div class="mt-[86px]">
+        @yield('content')
+    </div>
 
+    @vite('resources/js/app.js')
     @yield('script')
 </body>
 </html>

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&display=swap');
+
+body{
+    font-family: 'Charis SIL', serif;
+}
+
+.active{
+    text-decoration: underline;
+}
