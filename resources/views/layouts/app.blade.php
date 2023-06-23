@@ -9,8 +9,12 @@
     @yield('style')
 </head>
 <body>
-    @yield('content')
+    @include('layouts.navbar')
+    <div class="mt-[86px] pt-6">
+        @yield('content')
+    </div>
 
+    @vite('resources/js/app.js')
     @yield('script')
 </body>
 </html>
