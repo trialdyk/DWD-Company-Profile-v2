@@ -13,7 +13,7 @@
     <div class="mt-[86px]">
         @yield('content')
     </div>
-
+    @include('layouts.footer')
     @vite('resources/js/app.js')
     @yield('script')
 </body>
