@@ -48,12 +48,41 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-[#030303] py-6 px-56">
+            <div class="bg-[#030303] py-6 px-36">
                 <h1 class="text-4xl font-bold flex justify-center text-[#E4E5E6]">FAQ</h1>
-                <div class="text-[#E4E5E6]">
-                    <div class="">
-                        <h1>1. Website Ini Tentang Perusahaan Apa?</h1>
+                <div class="text-[#E4E5E6] my-7">
+                    <div class="flex justify-between border-b-4 py-4 border-[#E4E5E6]">
+                        <div class="">
+                            <h1 class="font-bold">1. Website Ini Tentang Perusahaan Apa?</h1>
+                        </div>
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6l6 6l-6 6Zm6.6 0l-1.4-1.4l4.575-4.6L11.6 7.4L13 6l6 6l-6 6Z"/></svg>
+                        </div>
                     </div>
+                    <div class="flex justify-between border-b-4 py-4 border-[#E4E5E6]">
+                        <div class="">
+                            <h1 class="font-bold">2. Bagaimana Cara Mengajukan Kerjasama Dengan Perusahaan Ini?</h1>
+                        </div>
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6l6 6l-6 6Zm6.6 0l-1.4-1.4l4.575-4.6L11.6 7.4L13 6l6 6l-6 6Z"/></svg>
+                        </div>
+                    </div>
+                    <div class="flex justify-between border-b-4 py-4 border-[#E4E5E6]">
+                        <div class="">
+                            <h1 class="font-bold">3. Bagaimana Cara Saya Melamar Pekerjaan Di Perusahaan Ini?</h1>
+                        </div>
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6l6 6l-6 6Zm6.6 0l-1.4-1.4l4.575-4.6L11.6 7.4L13 6l6 6l-6 6Z"/></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-12">
+                    <h1 class="text-[#E4E5E6] font-bold">Need More Help?</h1>
+                    <button class="bg-[#E4E5E6] flex p-2 rounded-md mt-4"><p class="mr-4">Contact Us</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16">
+                            <path fill="currentColor" fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg></button>
                 </div>
             </div>
         </div>

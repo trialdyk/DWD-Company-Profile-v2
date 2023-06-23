@@ -19,8 +19,10 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view('pages.home');
-})->name('home');
-
-Route::get('/contact',function() {
-    return view('pages.contact');
-})->name('contact');
+});
+Route::get('/about', function () {
+    return view('pages.about');
+});
+Route::get('/detail-product', function () {
+    return view('pages.detail-product');
+});
