@@ -19,13 +19,31 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view('pages.home');
-});
+})->name('home');
+
 Route::get('/about', function () {
     return view('pages.about');
-});
+})->name('about');
+
+Route::get('/service',function() {
+    return view('pages.service');
+})->name('service');
+
+Route::get('/expertise-it',function () {
+    return view('pages.expertise-it');
+})->name('expertise.it');
+
+Route::get('/expertise-wood',function () {
+    return view('pages.expertise-wood');
+})->name('expertise.wood');
+
+Route::get('/product',function() {
+    return view('pages.product');
+})->name('product');
+
 Route::get('/detail-product', function () {
     return view('pages.detail-product');
-});
+})->name('product.detail');
 
 Route::get('/contact',function(){
     return view('pages.contact');
