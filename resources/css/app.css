@@ -11,3 +11,30 @@ body{
 .active{
     text-decoration: underline;
 }
+
+
+.answer-faq {
+    max-height: 0;
+    overflow:hidden;
+    transition: max-height ease-in 1s;
+}
+
+.answer-faq-open {
+    max-height: 1000px;
+}
+
+.faq-icon-open {
+    transform: rotate(90deg) scaleY(-1);
+}
+
+.submenu {
+    max-height:0px;
+    overflow:hidden;
+    transition:max-height ease-in 0.4s;
+}
+
+.submenu-open {
+    max-height:1000px;
+    transition:max-height ease-in 0.4s;
+}
+

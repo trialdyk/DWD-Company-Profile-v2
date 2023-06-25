@@ -10,7 +10,7 @@
 </head>
 <body class="bg-primary-silver">
     @include('layouts.navbar')
-    <div class="mt-[86px]">
+    <div class="">
         @yield('content')
     </div>
     @include('layouts.footer')

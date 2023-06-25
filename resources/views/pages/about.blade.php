@@ -2,8 +2,7 @@
 @section('title', 'Home')
 @section('content')
     <div>
-        @include('layouts.navbar')
-        <div class="container p-12">
+        <div class="container p-12 pb-0">
             <div class="grid grid-cols-2 my-4">
                 <div class="">
                     <img src="{{ asset('maxresdefault.jpg') }}" alt="" class="rounded-md" srcset="">
@@ -63,7 +62,7 @@
                     </p>
                 </div>
             </div>
-            <div class="my-6">
+            <div class="mt-6">
                 <div class="bg-primary-silver border-2 border-[#464646] rounded-md h-[130px] flex items-center justify-center">
                     <img src="logos_spotify.png" alt="" class="mx-6">
                     <img src="logos_aws.png" alt="" class="mx-6">
