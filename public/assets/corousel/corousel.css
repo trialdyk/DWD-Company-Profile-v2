@@ -1,0 +1,132 @@
+.corousel{
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+.slide-content{
+    margin: 0 40px;
+    /* background-color: red; */
+    padding: 0 18px 18px 18px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.card{
+    width: 320px;
+    height: 23rem;
+    border-radius: 35px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(203 213 225 / var(--tw-text-opacity));
+    border-radius: 25px 0 25px 0;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    background-color: rgb(203 213 225 / var(--tw-text-opacity));
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgb(203 213 225 / var(--tw-text-opacity));
+}
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #030303;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: #030303;
+}
+.swiper-navBtn{
+    color: #676767;
+    transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+    color: #030303;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after
+{
+    font-size: 40px;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-pagination.bullet{
+    color: rgb(203 213 225 / var(--tw-text-opacity));
+    opacity: 1;
+}
+.swiper-pagination.bullet-active{
+    color: #030303;
+}
+@media screen and (max-width: 768px) {
+    .slide-content{
+        margin: 0 10px;
+    }
+    .swiper-navBtn{
+        display: none;
+    }
+}

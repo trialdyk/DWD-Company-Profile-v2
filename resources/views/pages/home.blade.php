@@ -47,41 +47,256 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-primary-black py-6 px-36">
+            <div class="corousel mb-8">
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    {{-- <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="logo.png" alt="" class="card-img">
+                                    </div> --}}
+                                </div>
+
+                                <div class="card-content">
+                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
+                                        praesentium saepe?</p>
+                                    <a class="button">View More</a> --}}
+                                </div>
+                            </div>       
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    {{-- <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="logo.png" alt="" class="card-img">
+                                    </div> --}}
+                                </div>
+
+                                <div class="card-content">
+                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
+                                        praesentium saepe?</p>
+                                    <a class="button">View More</a> --}}
+                                </div>
+                            </div>       
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    {{-- <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="logo.png" alt="" class="card-img">
+                                    </div> --}}
+                                </div>
+
+                                <div class="card-content">
+                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
+                                        praesentium saepe?</p>
+                                    <a class="button">View More</a> --}}
+                                </div>
+                            </div>       
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    {{-- <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="logo.png" alt="" class="card-img">
+                                    </div> --}}
+                                </div>
+
+                                <div class="card-content">
+                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
+                                        praesentium saepe?</p>
+                                    <a class="button">View More</a> --}}
+                                </div>
+                            </div>       
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    {{-- <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="logo.png" alt="" class="card-img">
+                                    </div> --}}
+                                </div>
+
+                                <div class="card-content">
+                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
+                                        praesentium saepe?</p>
+                                    <a class="button">View More</a> --}}
+                                </div>
+                            </div>       
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    {{-- <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="logo.png" alt="" class="card-img">
+                                    </div> --}}
+                                </div>
+
+                                <div class="card-content">
+                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
+                                        praesentium saepe?</p>
+                                    <a class="button">View More</a> --}}
+                                </div>
+                            </div>       
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    {{-- <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="logo.png" alt="" class="card-img">
+                                    </div> --}}
+                                </div>
+
+                                <div class="card-content">
+                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
+                                        praesentium saepe?</p>
+                                    <a class="button">View More</a> --}}
+                                </div>
+                            </div>       
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    {{-- <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="logo.png" alt="" class="card-img">
+                                    </div> --}}
+                                </div>
+
+                                <div class="card-content">
+                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
+                                        praesentium saepe?</p>
+                                    <a class="button">View More</a> --}}
+                                </div>
+                            </div>       
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    {{-- <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="logo.png" alt="" class="card-img">
+                                    </div> --}}
+                                </div>
+
+                                <div class="card-content">
+                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
+                                        praesentium saepe?</p>
+                                    <a class="button">View More</a> --}}
+                                </div>
+                            </div>       
+                        </div>
+                        <div class="swiper-button-next swiper-navBtn"></div>
+                        <div class="swiper-button-prev swiper-navBtn"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-primary-black py-6 px-36 my-5">
                 <h1 class="text-4xl font-bold flex justify-center text-primary-silver">FAQ</h1>
                 <div class="text-primary-silver my-7">
                     <div class="border-b-4 py-4 overflow-hidden border-primary-silver">
                         <div class="faq flex justify-between">
                             <h1 class="font-bold">1. Website Ini Tentang Perusahaan Apa?</h1>
-                            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6l6 6l-6 6Zm6.6 0l-1.4-1.4l4.575-4.6L11.6 7.4L13 6l6 6l-6 6Z"/></svg>
+                            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6l6 6l-6 6Zm6.6 0l-1.4-1.4l4.575-4.6L11.6 7.4L13 6l6 6l-6 6Z" />
+                            </svg>
                         </div>
                         <div class="answer-faq">
-                            <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus ea unde, enim doloribus culpa? Ducimus expedita et sequi vitae ad blanditiis illo! Exercitationem ab iure voluptas qui quisquam aperiam aut alias, dolorum assumenda odio tempore aspernatur maiores ipsum itaque? </span>
+                            <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus ea unde,
+                                enim doloribus culpa? Ducimus expedita et sequi vitae ad blanditiis illo! Exercitationem ab
+                                iure voluptas qui quisquam aperiam aut alias, dolorum assumenda odio tempore aspernatur
+                                maiores ipsum itaque? </span>
                         </div>
                     </div>
-                    
+
                     <div class="flex justify-between border-b-4 py-4 border-primary-silver">
                         <h1 class="font-bold">2. Bagaimana Cara Mengajukan Kerjasama Dengan Perusahaan Ini?</h1>
                         <div class="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6l6 6l-6 6Zm6.6 0l-1.4-1.4l4.575-4.6L11.6 7.4L13 6l6 6l-6 6Z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6l6 6l-6 6Zm6.6 0l-1.4-1.4l4.575-4.6L11.6 7.4L13 6l6 6l-6 6Z" />
+                            </svg>
                         </div>
                     </div>
                     <div class="flex justify-between border-b-4 py-4 border-primary-silver">
                         <h1 class="font-bold">3. Bagaimana Cara Saya Melamar Pekerjaan Di Perusahaan Ini?</h1>
                         <div class="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6l6 6l-6 6Zm6.6 0l-1.4-1.4l4.575-4.6L11.6 7.4L13 6l6 6l-6 6Z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6l6 6l-6 6Zm6.6 0l-1.4-1.4l4.575-4.6L11.6 7.4L13 6l6 6l-6 6Z" />
+                            </svg>
                         </div>
                     </div>
                 </div>
                 <div class="my-12">
                     <h1 class="text-primary-silver font-bold">Need More Help?</h1>
-                    <button class="bg-primary-silver flex p-2 rounded-md mt-4"><p class="mr-4">Contact Us</p>
+                    <button class="bg-primary-silver flex p-2 rounded-md mt-4">
+                        <p class="mr-4">Contact Us</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16">
                             <path fill="currentColor" fill-rule="evenodd"
                                 d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                        </svg></button>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>
     </div>
+@endsection
+@section('style')
+    <link rel="stylesheet" href="{{ asset('assets/corousel/unpkg.com_swiper@8.1.6_swiper-bundle.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/corousel/corousel.css') }}">
+@endsection
+@section('script')
+@section('script')
+{{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> --}}
+<script src="{{asset('assets/corousel/unpkg.com_swiper@8.1.6_swiper-bundle.min.js')}}"></script>
+<script>
+    var swiper = new Swiper(".slide-content", {
+        slidesPerView: 4,
+        spaceBetween: 25,
+        loop: true,
+        centerSlide: 'true',
+        fade: 'true',
+        gragCursor: 'true',
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            dynamicBullets: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            520: {
+                slidesPerView: 2,
+            },
+            950: {
+                slidesPerView: 4,
+            },
+        },
+    });
+</script>
+<script>
+    setInterval(function() {
+        $('.swiper-button-next').click();
+    }, 5000);
+</script>
+@endsection
 @endsection
