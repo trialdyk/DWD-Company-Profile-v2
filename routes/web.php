@@ -48,3 +48,6 @@ Route::get('/detail-product', function () {
 Route::get('/contact',function(){
     return view('pages.contact');
 })->name('contact');
+Route::get('/navmobile',function(){
+    return view('pages.navmobile');
+})->name('navmobile');
