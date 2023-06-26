@@ -13,6 +13,7 @@
 </head>
 <body class="bg-primary-silver" style="font-family: 'Roboto', sans-serif;">
     @include('layouts.navbar')
+    @include('layouts.mobile-navbar')
     <div class="">
         @yield('content')
     </div>
