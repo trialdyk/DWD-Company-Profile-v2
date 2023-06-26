@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="">
-                    <img src="{{ asset('maxresdefault.jpg') }}" alt="" class="rounded-md" srcset="">
+                    <img src="{{ asset('assets/img/maxresdefault.jpg') }}" alt="" class="rounded-md" srcset="">
                 </div>
             </div>
             <div class="my-12 flex flex-col">

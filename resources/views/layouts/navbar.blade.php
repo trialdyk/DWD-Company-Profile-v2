@@ -1,4 +1,4 @@
-<div class="sticky top-0 z-90 bg-primary-black w-full h-[86px] flex justify-center items-center">
+<div class="sticky top-0 bg-primary-black w-full h-[86px] flex justify-center items-center" style="z-index: 999">
     <div class="h-[51px] w-full mx-[47px] flex justify-between items-center">
         <img class="h-full w-auto" src="{{asset('assets/img/Logo-Navbar.png')}}" alt="">
         <ul class="flex text-primary-silver gap-[20px]">

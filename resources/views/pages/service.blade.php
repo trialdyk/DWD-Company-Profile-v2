@@ -19,7 +19,7 @@
     <section class="px-[65px] my-[65px]">
         <div class="grid grid-cols-2 gap-36">
             <div class="">
-                <div class="relative">
+                <div class="relative z-1">
                     <div class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[16rem] h-[23rem]">
                         <img src="{{asset('assets/img/pngtree-large-amount-of-wood-is-stacked-in-a-wooden-shop-picture-image_2624305.png')}}"
                             class="w-full h-full rounded-md" alt="">
