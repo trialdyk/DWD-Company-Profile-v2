@@ -2,12 +2,14 @@
 
 @section('content')
     <!-- Head -->
-    <section class="bg-primary-black text-primary-silver h-[344px] py-[2.5rem] px-[20px] md:px-[65px] w-full">
+    <section class="bg-primary-black text-primary-silver h-[344px] py-[1.5rem] md:py-[2.5rem] px-[20px] md:px-[65px] w-full">
         <div class="grid lg:grid-cols-2 lg:gap-6">
             <div class="">
-                <h1 class="mb-6 text-center lg:text-left text-4xl md:text-5xl lg:text-6xl "><span class="italic">Wide</span><span class="font-bold"> range </span><span
-                        class="italic">of services for you</span></h1>
-                <h3 class="text-center lg:text-left text-sm md:text-md lg:text-lg">We are specialized in designing kitchens, wardrobes, Walking closets, indoor and outdoor
+                <h1 class="mb-6 text-center lg:text-left text-4xl md:text-5xl lg:text-6xl "><span
+                        class="italic">Wide</span><span class="font-bold"> range </span><span class="italic">of services for
+                        you</span></h1>
+                <h3 class="text-center lg:text-left text-sm md:text-md lg:text-lg">We are specialized in designing kitchens,
+                    wardrobes, Walking closets, indoor and outdoor
                     furniture and etc. We are here to help you to use your space in maximum, and will offer you the ideal
                     design which will fit your budget.</h3>
             </div>
@@ -17,23 +19,25 @@
 
     <!-- Content -->
     <section class="px-[65px] my-[65px]">
-        <div class="grid grid-cols-2 gap-36">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-36 mt-[5rem] md:[12rem]">
             <div class="">
-                <div class="relative z-1">
-                    <div class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[16rem] h-[23rem]">
-                        <img src="{{asset('assets/img/pngtree-large-amount-of-wood-is-stacked-in-a-wooden-shop-picture-image_2624305.png')}}"
+                <div class="relative z-1 mb-[8rem] md:mb-0">
+                    <div
+                        class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[11rem] h-[16rem] md:w-[13rem] md:h-[19rem] lg:w-[16rem] lg:h-[23rem]">
+                        <img src="{{ asset('assets/img/pngtree-large-amount-of-wood-is-stacked-in-a-wooden-shop-picture-image_2624305.png') }}"
                             class="w-full h-full rounded-md" alt="">
                     </div>
-                    <div class="absolute top-44 left-32">
-                        <div class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[16rem] h-[23rem]">
-                            <img src="{{asset('assets/img/desktop-wallpaper-of-the-week-textured-wood-texture.jpg')}}"
+                    <div class="absolute top-44 left-24">
+                        <div
+                            class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[11rem] h-[16rem] md:w-[13rem] md:h-[19rem] lg:w-[16rem] lg:h-[23rem]">
+                            <img src="{{ asset('assets/img/desktop-wallpaper-of-the-week-textured-wood-texture.jpg') }}"
                                 class="w-full h-full rounded-md" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="mt-[2rem]">
-                <h1 class="text-6xl font-bold my-6">Wood Company</h1>
+            <div class="mt-0 md:mt-0 lg:mt-[2rem]">
+                <h1 class="text-6xl font-bold my-6">Wood Devision</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellat consectetur similique illo? Ex
                     culpa eius, omnis cum excepturi esse?
@@ -53,8 +57,8 @@
                 </button>
             </div>
         </div>
-        <div class="grid grid-cols-2 gap-36 mt-[12rem]">
-            <div class="mt-[2rem]">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-36 mt-[2rem] md:mt-[12rem]">
+            <div class="mt-0 md:mt-0 lg:mt-[2rem]">
                 <h1 class="text-6xl font-bold my-6">It Devision</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellat consectetur similique illo? Ex
@@ -75,14 +79,16 @@
                 </button>
             </div>
             <div class="">
-                <div class="relative">
-                    <div class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[16rem] h-[23rem]">
-                        <img src="{{asset('assets/img/pngtree-large-amount-of-wood-is-stacked-in-a-wooden-shop-picture-image_2624305.png')}}"
+                <div class="relative z-1 mb-[8rem] md:mb-0">
+                    <div
+                        class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[11rem] h-[16rem] md:w-[13rem] md:h-[19rem] lg:w-[16rem] lg:h-[23rem]">
+                        <img src="{{ asset('assets/img/pngtree-large-amount-of-wood-is-stacked-in-a-wooden-shop-picture-image_2624305.png') }}"
                             class="w-full h-full rounded-md" alt="">
                     </div>
-                    <div class="absolute top-44 left-32">
-                        <div class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[16rem] h-[23rem]">
-                            <img src="{{asset('assets/img/desktop-wallpaper-of-the-week-textured-wood-texture.jpg')}}"
+                    <div class="absolute top-44 left-24">
+                        <div
+                            class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[11rem] h-[16rem] md:w-[13rem] md:h-[19rem] lg:w-[16rem] lg:h-[23rem]">
+                            <img src="{{ asset('assets/img/desktop-wallpaper-of-the-week-textured-wood-texture.jpg') }}"
                                 class="w-full h-full rounded-md" alt="">
                         </div>
                     </div>
