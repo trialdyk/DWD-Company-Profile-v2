@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title')</title>
     @vite('resources/css/app.css')
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     @yield('style')
 </head>
-<body class="bg-primary-silver">
+<body class="bg-primary-silver" style="font-family: 'Roboto', sans-serif;">
     @include('layouts.navbar')
     <div class="">
         @yield('content')

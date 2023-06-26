@@ -21,12 +21,12 @@
             <div class="">
                 <div class="relative">
                     <div class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[16rem] h-[23rem]">
-                        <img src="pngtree-large-amount-of-wood-is-stacked-in-a-wooden-shop-picture-image_2624305.png"
+                        <img src="{{asset('assets/img/pngtree-large-amount-of-wood-is-stacked-in-a-wooden-shop-picture-image_2624305.png')}}"
                             class="w-full h-full rounded-md" alt="">
                     </div>
                     <div class="absolute top-44 left-32">
                         <div class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[16rem] h-[23rem]">
-                            <img src="desktop-wallpaper-of-the-week-textured-wood-texture.jpg"
+                            <img src="{{asset('assets/img/desktop-wallpaper-of-the-week-textured-wood-texture.jpg')}}"
                                 class="w-full h-full rounded-md" alt="">
                         </div>
                     </div>
@@ -77,12 +77,12 @@
             <div class="">
                 <div class="relative">
                     <div class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[16rem] h-[23rem]">
-                        <img src="pngtree-large-amount-of-wood-is-stacked-in-a-wooden-shop-picture-image_2624305.png"
+                        <img src="{{asset('assets/img/pngtree-large-amount-of-wood-is-stacked-in-a-wooden-shop-picture-image_2624305.png')}}"
                             class="w-full h-full rounded-md" alt="">
                     </div>
                     <div class="absolute top-44 left-32">
                         <div class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[16rem] h-[23rem]">
-                            <img src="desktop-wallpaper-of-the-week-textured-wood-texture.jpg"
+                            <img src="{{asset('assets/img/desktop-wallpaper-of-the-week-textured-wood-texture.jpg')}}"
                                 class="w-full h-full rounded-md" alt="">
                         </div>
                     </div>
