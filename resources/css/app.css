@@ -32,3 +32,14 @@
     transition:max-height ease-in 0.4s;
 }
 
+.mobile-navbar-close{
+    max-width:0;
+    overflow:hidden;
+    transition:max-width 0.6s;
+}
+
+.mobile-navbar-open{
+    max-width:1000px;
+    transition:max-width 0.6s;
+}
+

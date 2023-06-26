@@ -13,4 +13,14 @@ $(document).ready(function() {
     $('.submenu-link').click(function() {
       $(this).next().toggleClass('submenu-open')
     })
+
+    $('#open-mobile-navbar').click(function(){
+      $('#mobile-navbar').toggleClass(['mobile-navbar-open','mobile-navbar-close']);
+      $('body').toggleClass('overflow-hidden');
+    })
+
+    $('#close-mobile-navbar').click(function(){
+      $('#mobile-navbar').toggleClass(['mobile-navbar-open','mobile-navbar-close']);
+      $('body').toggleClass('overflow-hidden');
+    })
 });

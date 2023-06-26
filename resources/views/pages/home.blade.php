@@ -3,10 +3,10 @@
 @section('content')
     <div>
         <div class="container">
-            <div class="grid grid-cols-2 p-12 my-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 p-4 md:p-12 my-4">
                 <div class="">
-                    <h1 id="tes" class="text-4xl font-bold">Welcome To DWD Company</h1>
-                    <div class="px-6 my-6 border-l-4 border-primary-black">
+                    <h1  class="text-2xl md:text-4xl font-bold">Welcome To DWD Company</h1>
+                    <div class="px-2 md:px-6 my-6 text-xs border-l-2 md:border-l-4 border-primary-black">
                         <p>
                             Welcome to our IT recruitment company! We are delighted to have you here and excited to help you
                             find
@@ -18,7 +18,11 @@
                         </p>
                         <div class="flex my-4">
                             <p class="mr-4">Our Service</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16">
+                            <svg class="hidden md:block" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16">
+                                <path fill="currentColor" fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                            <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16">
                                 <path fill="currentColor" fill-rule="evenodd"
                                     d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                             </svg>
@@ -30,8 +34,8 @@
                 </div>
             </div>
             <div class="my-12 flex flex-col">
-                <h1 class="text-4xl font-bold mx-auto">DWD Company</h1>
-                <div class="text-center w-[600px] mx-auto my-5">
+                <h1 class="text-3xl md:text-4xl font-bold mx-auto">DWD Company</h1>
+                <div class="text-center w-full text-xs mx-2 my-2 md:my-5">
                     <p>
                         DWD Consultancy is
                         a good choices being your partner to build and control your business which is under the auspices
@@ -40,7 +44,11 @@
                     </p>
                     <div class="flex my-4 justify-center">
                         <p class="mr-4">Our Service</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16">
+                        <svg class="hidden md:block" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16">
+                            <path fill="currentColor" fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg>
+                        <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16">
                             <path fill="currentColor" fill-rule="evenodd"
                                 d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                         </svg>
@@ -202,7 +210,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-primary-black py-6 px-36 my-5">
+            <div class="bg-primary-black py-6 px-4 md:px-20 lg:px-36 my-5">
                 <h1 class="text-4xl font-bold flex justify-center text-primary-silver">FAQ</h1>
                 <div class="text-primary-silver my-7">
                     <div class="border-b-4 py-4 overflow-hidden border-primary-silver">
