@@ -1,7 +1,7 @@
-<div class="sticky top-0 z-90 bg-primary-black w-full h-[86px] flex justify-center items-center">
+<div class="bg-primary-black w-full h-[86px] flex justify-center items-center">
     <div class="h-[51px] w-full mx-[47px] flex justify-between items-center">
         <img class="h-full w-auto" src="{{asset('assets/img/Logo-Navbar.png')}}" alt="">
-        <ul class="flex text-primary-silver gap-[20px]">
+        <ul class="hidden md:flex text-primary-silver gap-[20px]">
             <li class="{{request()->routeIs('home') ? 'active' : ''}}">
                 <a href="{{Route('home')}}">Home</a>
             </li>
@@ -35,6 +35,11 @@
                 <a href="{{Route('contact')}}">Contact</a>
             </li>
         </ul>
-        <div></div>
+        <div class="text-primary-silver md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </div>
+        <div class="hidden md:block">
+
+        </div>
     </div>
 </div>

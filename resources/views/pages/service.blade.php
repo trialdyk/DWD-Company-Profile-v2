@@ -2,12 +2,12 @@
 
 @section('content')
     <!-- Head -->
-    <section class="bg-primary-black text-primary-silver h-[344px] py-[2.5rem] pl-[65px] w-full">
-        <div class="grid grid-cols-2 gap-6">
+    <section class="bg-primary-black text-primary-silver h-[344px] py-[2.5rem] px-[20px] md:px-[65px] w-full">
+        <div class="grid lg:grid-cols-2 lg:gap-6">
             <div class="">
-                <h1 class="mb-6 text-6xl w-[70%]"><span class="italic">Wide</span><span class="font-bold"> range </span><span
+                <h1 class="mb-6 text-center lg:text-left text-4xl md:text-5xl lg:text-6xl "><span class="italic">Wide</span><span class="font-bold"> range </span><span
                         class="italic">of services for you</span></h1>
-                <h3 class="text-lg">We are specialized in designing kitchens, wardrobes, Walking closets, indoor and outdoor
+                <h3 class="text-center lg:text-left text-sm md:text-md lg:text-lg">We are specialized in designing kitchens, wardrobes, Walking closets, indoor and outdoor
                     furniture and etc. We are here to help you to use your space in maximum, and will offer you the ideal
                     design which will fit your budget.</h3>
             </div>
