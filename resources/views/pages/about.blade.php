@@ -5,7 +5,7 @@
         <div class="container p-12 pb-0">
             <div class="grid grid-cols-2 my-4">
                 <div class="">
-                    <img src="{{ asset('maxresdefault.jpg') }}" alt="" class="rounded-md" srcset="">
+                    <img src="{{ asset('assets/img/maxresdefault.jpg') }}" alt="" class="rounded-md" srcset="">
                 </div>
                 <div class="ml-[2rem]">
                     <h1 class="text-2xl text-[#A6A3A3] font-bold">About Us</h1>
@@ -66,9 +66,8 @@
                 <div class="bg-primary-silver border-2 border-[#464646] rounded-md h-[130px] flex items-center justify-center">
                     <img src="{{asset('assets/img/logos_spotify.png')}}" alt="" class="mx-6">
                     <img src="{{asset('assets/img/logos_aws.png')}}" alt="" class="mx-6">
-                    <img src="{{asset('assets/img/Logo-Hummasoft-Bb 1.png')}} 1.png" alt="" class="mx-6">
-                    <img src="{{asset('assets/img/maxresdefault.jpg')}}" alt="" class="mx-6">
-                    <img src="{{asset('Vector(3).png')}}" alt="" class="mx-6">
+                    <img src="{{asset('assets/img/Logo-Hummasoft-Bb 1.png')}}" alt="" class="mx-6">
+                    <img src="{{asset('assets/img/Vector(3).png')}}" alt="" class="mx-6">
                 </div>
             </div>
         </div>
