@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     @yield('style')
 </head>
-<body class="bg-primary-silver" style="font-family: 'Roboto', sans-serif;">
+<body class="bg-primary-silver overflow-x-hidden" style="font-family: 'Roboto', sans-serif;">
     @include('layouts.navbar')
     @include('layouts.mobile-navbar')
     <div class="">
@@ -20,5 +21,9 @@
     @include('layouts.footer')
     @vite('resources/js/app.js')
     @yield('script')
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
