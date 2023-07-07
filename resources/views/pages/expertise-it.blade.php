@@ -36,7 +36,7 @@
 
                 </div>
                 <div class="col-span-2">
-                    <h1 class="text-6xl font-bold flex justify-center text-primary-black"><u>Our Expertise</u></h1>
+                    <h1 class="text-6xl font-bold flex justify-start text-primary-black"><u>Our Expertise</u></h1>
                     <p class="text-primary-black my-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
                         eos ad in dolore voluptatibus, exercitationem cupiditate. Repellat neque, nostrum modi asperiores
                         deserunt eius veritatis aperiam reprehenderit, necessitatibus esse dolorem? Illo reprehenderit,
