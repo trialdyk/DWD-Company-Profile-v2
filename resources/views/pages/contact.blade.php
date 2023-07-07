@@ -5,7 +5,7 @@
     <!-- Head -->
     <section class="bg-primary-black text-primary-silver h-[344px] w-full flex justify-center items-center">
         <div class="text-center">
-            <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold">Contact Us</h1>
+            <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold" >Contact Us</h1>
             <h3 class="text-md md:text-lg">We value every feedback from our customers. Do you have any suggestions, feedback or experiences you'd like to share</h3>
         </div>
     </section>

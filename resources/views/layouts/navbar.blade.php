@@ -1,7 +1,7 @@
 <div class="bg-primary-black w-full h-[86px] flex justify-center items-center">
     <div class="h-[51px] w-full mx-[47px] flex justify-between items-center">
-        <img class="h-full w-auto" src="{{asset('assets/img/Logo-Navbar.png')}}" alt="">
-        <ul class="hidden md:flex text-primary-silver gap-[20px]">
+        <img class="h-full w-auto" src="{{asset('assets/img/Logo-Navbar.png')}}" data-aos="fade-right" data-aos-duration="1000" alt="">
+        <ul data-aos="fade-down" data-aos-duration="1200" class="hidden md:flex text-primary-silver gap-[20px]">
             <li class="{{request()->routeIs('home') ? 'active' : ''}}">
                 <a href="{{Route('home')}}">Home</a>
             </li>

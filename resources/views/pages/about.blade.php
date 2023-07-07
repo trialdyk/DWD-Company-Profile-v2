@@ -4,13 +4,13 @@
     <div>
         <div class="container p-12 pb-0">
             <div class="grid grid-cols-2 my-4">
-                <div class="">
+                <div class="" data-aos="fade-left" data-aos-duration="1000">
                     <img src="{{ asset('assets/img/maxresdefault.jpg') }}" alt="" class="rounded-md" srcset="">
                 </div>
                 <div class="ml-[2rem]">
-                    <h1 class="text-2xl text-[#A6A3A3] font-bold">About Us</h1>
-                    <h1 class="text-4xl text-[#030303] font-bold my-6">DWD Company</h1>
-                    <div class="my-6 text-[#030303]">
+                    <h1 data-aos="fade-left" data-aos-duration="500" data-aos-delay="1200" class="text-2xl text-[#A6A3A3] font-bold">About Us</h1>
+                    <h1 data-aos="fade-left" data-aos-duration="500" data-aos-delay="1600" class="text-4xl text-[#030303] font-bold my-6">DWD Company</h1>
+                    <div data-aos="fade-left" data-aos-duration="500" data-aos-delay="2000" class="my-6 text-[#030303]">
                         <p>
                             Welcome to our IT recruitment company! We are delighted to have you here and excited to help you
                             find
@@ -24,8 +24,8 @@
                 </div>
             </div>
             <div class="my-6">
-                <h1 class="text-4xl text-[#030303] font-bold my-6">DWD Company</h1>
-                <div class="my-6 text-[#030303]">
+                <h1 class="text-4xl text-[#030303] font-bold my-6" data-aos="fade-right" data-aos-duration="700" data-aos-delay="400">DWD Company</h1>
+                <div class="my-6 text-[#030303]" data-aos="fade-left" data-aos-duration="700" data-aos-delay="600">
                     <p>
                         DWD company was founded in 1990 with a vision to provide innovative technology solutions to our
                         customers. Since our inception, we have focused on the production and sale of high-quality computer
@@ -62,7 +62,7 @@
                     </p>
                 </div>
             </div>
-            <div class="mt-6">
+            <div class="mt-6" data-aos="fade-up" data-aos-duration="1200">
                 <div class="bg-primary-silver border-2 border-[#464646] rounded-md h-[130px] flex items-center justify-center">
                     <img src="{{asset('assets/img/logos_spotify.png')}}" alt="" class="mx-6">
                     <img src="{{asset('assets/img/logos_aws.png')}}" alt="" class="mx-6">
