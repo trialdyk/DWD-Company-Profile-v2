@@ -5,8 +5,9 @@
         <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-2 p-4 md:p-12 my-4">
                 <div class="">
-                    <h1  class="text-2xl md:text-4xl font-bold">Welcome To DWD Company</h1>
-                    <div class="px-2 md:px-6 my-6 text-xs md:text-md lg:text-lg border-l-2 md:border-l-4 border-primary-black">
+                    <h1 class="text-2xl md:text-4xl font-bold">Welcome To DWD Company</h1>
+                    <div
+                        class="px-2 md:px-6 my-6 text-xs md:text-md lg:text-lg border-l-2 md:border-l-4 border-primary-black">
                         <p>
                             Welcome to our IT recruitment company! We are delighted to have you here and excited to help you
                             find
@@ -18,11 +19,13 @@
                         </p>
                         <div class="flex my-4">
                             <p class="mr-4">Our Service</p>
-                            <svg class="hidden md:block" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16">
+                            <svg class="hidden md:block" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                viewBox="0 0 16 16">
                                 <path fill="currentColor" fill-rule="evenodd"
                                     d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                             </svg>
-                            <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16">
+                            <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                viewBox="0 0 16 16">
                                 <path fill="currentColor" fill-rule="evenodd"
                                     d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                             </svg>
@@ -44,11 +47,13 @@
                     </p>
                     <div class="flex my-4 justify-center">
                         <p class="mr-4">Our Service</p>
-                        <svg class="hidden md:block" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16">
+                        <svg class="hidden md:block" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                            viewBox="0 0 16 16">
                             <path fill="currentColor" fill-rule="evenodd"
                                 d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                         </svg>
-                        <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16">
+                        <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                            viewBox="0 0 16 16">
                             <path fill="currentColor" fill-rule="evenodd"
                                 d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                         </svg>
@@ -61,148 +66,125 @@
                         <div class="card-wrapper swiper-wrapper">
                             <div class="card swiper-slide">
                                 <div class="image-content">
-                                    {{-- <span class="overlay"></span>
+                                    <span class="overlay"></span>
                                     <div class="card-image">
-                                        <img src="logo.png" alt="" class="card-img">
-                                    </div> --}}
+                                        <img src="{{ asset('assets/img/Group 64.png') }}" alt="" class="card-img">
+                                    </div>
                                 </div>
 
                                 <div class="card-content">
-                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <h2 class="name">Kamera Kayu</h2>
                                     <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
-                                        praesentium saepe?</p>
-                                    <a class="button">View More</a> --}}
+                                        Molestiae vero?</p>
+                                    <a class="button">View More</a>
                                 </div>
-                            </div>       
+                            </div>
                             <div class="card swiper-slide">
                                 <div class="image-content">
-                                    {{-- <span class="overlay"></span>
+                                    <span class="overlay"></span>
                                     <div class="card-image">
-                                        <img src="logo.png" alt="" class="card-img">
-                                    </div> --}}
+                                        <img src="{{ asset('assets/img/Group 64.png') }}" alt="" class="card-img">
+                                    </div>
                                 </div>
 
                                 <div class="card-content">
-                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <h2 class="name">Kamera Kayu</h2>
                                     <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
-                                        praesentium saepe?</p>
-                                    <a class="button">View More</a> --}}
+                                        Molestiae vero?</p>
+                                    <a class="button">View More</a>
                                 </div>
-                            </div>       
+                            </div>
                             <div class="card swiper-slide">
                                 <div class="image-content">
-                                    {{-- <span class="overlay"></span>
+                                    <span class="overlay"></span>
                                     <div class="card-image">
-                                        <img src="logo.png" alt="" class="card-img">
-                                    </div> --}}
+                                        <img src="{{ asset('assets/img/Group 64.png') }}" alt="" class="card-img">
+                                    </div>
                                 </div>
 
                                 <div class="card-content">
-                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <h2 class="name">Kamera Kayu</h2>
                                     <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
-                                        praesentium saepe?</p>
-                                    <a class="button">View More</a> --}}
+                                        Molestiae vero?</p>
+                                    <a class="button">View More</a>
                                 </div>
-                            </div>       
+                            </div>
                             <div class="card swiper-slide">
                                 <div class="image-content">
-                                    {{-- <span class="overlay"></span>
+                                    <span class="overlay"></span>
                                     <div class="card-image">
-                                        <img src="logo.png" alt="" class="card-img">
-                                    </div> --}}
+                                        <img src="{{ asset('assets/img/Group 64.png') }}" alt="" class="card-img">
+                                    </div>
                                 </div>
 
                                 <div class="card-content">
-                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <h2 class="name">Kamera Kayu</h2>
                                     <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
-                                        praesentium saepe?</p>
-                                    <a class="button">View More</a> --}}
+                                        Molestiae vero?</p>
+                                    <a class="button">View More</a>
                                 </div>
-                            </div>       
+                            </div>
                             <div class="card swiper-slide">
                                 <div class="image-content">
-                                    {{-- <span class="overlay"></span>
+                                    <span class="overlay"></span>
                                     <div class="card-image">
-                                        <img src="logo.png" alt="" class="card-img">
-                                    </div> --}}
+                                        <img src="{{ asset('assets/img/Group 64.png') }}" alt="" class="card-img">
+                                    </div>
                                 </div>
 
                                 <div class="card-content">
-                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <h2 class="name">Kamera Kayu</h2>
                                     <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
-                                        praesentium saepe?</p>
-                                    <a class="button">View More</a> --}}
+                                        Molestiae vero?</p>
+                                    <a class="button">View More</a>
                                 </div>
-                            </div>       
+                            </div>
                             <div class="card swiper-slide">
                                 <div class="image-content">
-                                    {{-- <span class="overlay"></span>
+                                    <span class="overlay"></span>
                                     <div class="card-image">
-                                        <img src="logo.png" alt="" class="card-img">
-                                    </div> --}}
+                                        <img src="{{ asset('assets/img/Group 64.png') }}" alt="" class="card-img">
+                                    </div>
                                 </div>
 
                                 <div class="card-content">
-                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <h2 class="name">Kamera Kayu</h2>
                                     <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
-                                        praesentium saepe?</p>
-                                    <a class="button">View More</a> --}}
+                                        Molestiae vero?</p>
+                                    <a class="button">View More</a>
                                 </div>
-                            </div>       
+                            </div>
                             <div class="card swiper-slide">
                                 <div class="image-content">
-                                    {{-- <span class="overlay"></span>
+                                    <span class="overlay"></span>
                                     <div class="card-image">
-                                        <img src="logo.png" alt="" class="card-img">
-                                    </div> --}}
+                                        <img src="{{ asset('assets/img/Group 64.png') }}" alt="" class="card-img">
+                                    </div>
                                 </div>
 
                                 <div class="card-content">
-                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <h2 class="name">Kamera Kayu</h2>
                                     <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
-                                        praesentium saepe?</p>
-                                    <a class="button">View More</a> --}}
+                                        Molestiae vero?</p>
+                                    <a class="button">View More</a>
                                 </div>
-                            </div>       
+                            </div>
                             <div class="card swiper-slide">
                                 <div class="image-content">
-                                    {{-- <span class="overlay"></span>
+                                    <span class="overlay"></span>
                                     <div class="card-image">
-                                        <img src="logo.png" alt="" class="card-img">
-                                    </div> --}}
+                                        <img src="{{ asset('assets/img/Group 64.png') }}" alt="" class="card-img">
+                                    </div>
                                 </div>
 
                                 <div class="card-content">
-                                    {{-- <h2 class="name">DWD Company</h2>
+                                    <h2 class="name">Kamera Kayu</h2>
                                     <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
-                                        praesentium saepe?</p>
-                                    <a class="button">View More</a> --}}
+                                        Molestiae vero?</p>
+                                    <a class="button">View More</a>
                                 </div>
-                            </div>       
-                            <div class="card swiper-slide">
-                                <div class="image-content">
-                                    {{-- <span class="overlay"></span>
-                                    <div class="card-image">
-                                        <img src="logo.png" alt="" class="card-img">
-                                    </div> --}}
-                                </div>
-
-                                <div class="card-content">
-                                    {{-- <h2 class="name">DWD Company</h2>
-                                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Molestiae vero suscipit aliquam architecto tempora odit quo voluptatem cumque
-                                        praesentium saepe?</p>
-                                    <a class="button">View More</a> --}}
-                                </div>
-                            </div>       
+                            </div>
+                            
                         </div>
                         <div class="swiper-button-next swiper-navBtn"></div>
                         <div class="swiper-button-prev swiper-navBtn"></div>
@@ -281,41 +263,44 @@
     <link rel="stylesheet" href="{{ asset('assets/corousel/corousel.css') }}">
 @endsection
 @section('script')
-{{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> --}}
-<script src="{{asset('assets/corousel/unpkg.com_swiper@8.1.6_swiper-bundle.min.js')}}"></script>
-<script>
-    var swiper = new Swiper(".slide-content", {
-        slidesPerView: 4,
-        spaceBetween: 25,
-        loop: true,
-        centerSlide: 'true',
-        fade: 'true',
-        gragCursor: 'true',
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-            dynamicBullets: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-            0: {
-                slidesPerView: 1,
+    {{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> --}}
+    <script src="{{ asset('assets/corousel/unpkg.com_swiper@8.1.6_swiper-bundle.min.js') }}"></script>
+    <script>
+        var swiper = new Swiper(".slide-content", {
+            slidesPerView: 4,
+            spaceBetween: 25,
+            loop: true,
+            centerSlide: 'true',
+            fade: 'true',
+            gragCursor: 'true',
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
             },
-            520: {
-                slidesPerView: 2,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
-            950: {
-                slidesPerView: 4,
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                520: {
+                    slidesPerView: 2,
+                },
+                950: {
+                    slidesPerView: 4,
+                },
             },
-        },
-    });
-</script>
-<script>
-    setInterval(function() {
-        $('.swiper-button-next').click();
-    }, 5000);
-</script>
+        });
+    </script>
+    <script>
+        setInterval(function() {
+            $('.swiper-button-next').click();
+        }, 5000);
+    </script>
+@endsection
+@section('style')
+    <img src="{{asset('corousel.css')}}" alt="" srcset="">
 @endsection
