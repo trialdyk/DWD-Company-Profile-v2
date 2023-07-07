@@ -6,7 +6,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 p-4 md:p-12 my-4">
                 <div class="">
                     <h1  class="text-2xl md:text-4xl font-bold">Welcome To DWD Company</h1>
-                    <div class="px-2 md:px-6 my-6 text-xs border-l-2 md:border-l-4 border-primary-black">
+                    <div class="px-2 md:px-6 my-6 text-xs md:text-md lg:text-lg border-l-2 md:border-l-4 border-primary-black">
                         <p>
                             Welcome to our IT recruitment company! We are delighted to have you here and excited to help you
                             find
@@ -35,7 +35,7 @@
             </div>
             <div class="my-12 flex flex-col">
                 <h1 class="text-3xl md:text-4xl font-bold mx-auto">DWD Company</h1>
-                <div class="text-center w-full text-xs mx-2 my-2 md:my-5">
+                <div class="text-center w-full text-xs md:text-md lg:text-lg mx-2 my-2 md:my-5">
                     <p>
                         DWD Consultancy is
                         a good choices being your partner to build and control your business which is under the auspices
@@ -229,23 +229,36 @@
                                 maiores ipsum itaque? </span>
                         </div>
                     </div>
-
-                    <div class="flex justify-between border-b-4 py-4 border-primary-silver">
-                        <h1 class="font-bold">2. Bagaimana Cara Mengajukan Kerjasama Dengan Perusahaan Ini?</h1>
-                        <div class="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <div class="border-b-4 py-4 overflow-hidden border-primary-silver">
+                        <div class="faq flex justify-between">
+                            <h1 class="font-bold">2. Website Ini Tentang Perusahaan Apa?</h1>
+                            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                viewBox="0 0 24 24">
                                 <path fill="currentColor"
                                     d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6l6 6l-6 6Zm6.6 0l-1.4-1.4l4.575-4.6L11.6 7.4L13 6l6 6l-6 6Z" />
                             </svg>
                         </div>
+                        <div class="answer-faq">
+                            <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus ea unde,
+                                enim doloribus culpa? Ducimus expedita et sequi vitae ad blanditiis illo! Exercitationem ab
+                                iure voluptas qui quisquam aperiam aut alias, dolorum assumenda odio tempore aspernatur
+                                maiores ipsum itaque? </span>
+                        </div>
                     </div>
-                    <div class="flex justify-between border-b-4 py-4 border-primary-silver">
-                        <h1 class="font-bold">3. Bagaimana Cara Saya Melamar Pekerjaan Di Perusahaan Ini?</h1>
-                        <div class="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <div class="border-b-4 py-4 overflow-hidden border-primary-silver">
+                        <div class="faq flex justify-between">
+                            <h1 class="font-bold">3. Website Ini Tentang Perusahaan Apa?</h1>
+                            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                viewBox="0 0 24 24">
                                 <path fill="currentColor"
                                     d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6l6 6l-6 6Zm6.6 0l-1.4-1.4l4.575-4.6L11.6 7.4L13 6l6 6l-6 6Z" />
                             </svg>
+                        </div>
+                        <div class="answer-faq">
+                            <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus ea unde,
+                                enim doloribus culpa? Ducimus expedita et sequi vitae ad blanditiis illo! Exercitationem ab
+                                iure voluptas qui quisquam aperiam aut alias, dolorum assumenda odio tempore aspernatur
+                                maiores ipsum itaque? </span>
                         </div>
                     </div>
                 </div>
@@ -267,7 +280,6 @@
     <link rel="stylesheet" href="{{ asset('assets/corousel/unpkg.com_swiper@8.1.6_swiper-bundle.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/corousel/corousel.css') }}">
 @endsection
-@section('script')
 @section('script')
 {{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> --}}
 <script src="{{asset('assets/corousel/unpkg.com_swiper@8.1.6_swiper-bundle.min.js')}}"></script>
@@ -306,5 +318,4 @@
         $('.swiper-button-next').click();
     }, 5000);
 </script>
-@endsection
 @endsection
