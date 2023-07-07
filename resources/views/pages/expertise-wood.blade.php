@@ -36,7 +36,7 @@
 
                 </div>
                 <div class="lg:col-span-2 md:col-span-5">
-                    <h1 class="text-3xl md:text-6xl font-bold flex justify-start md:justify-end text-primary-black"><u>Our Expertise</u></h1>
+                    <h1 class="text-3xl md:text-6xl font-bold flex justify-start text-primary-black"><u>Our Expertise</u></h1>
                     <p class="text-primary-black my-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
                         eos ad in dolore voluptatibus, exercitationem cupiditate. Repellat neque, nostrum modi asperiores
                         deserunt eius veritatis aperiam reprehenderit, necessitatibus esse dolorem? Illo reprehenderit,
@@ -51,7 +51,7 @@
         <div class="my-4">
             <div class="grid grid-cols-1 md:grid-cols-3 my-8">
                 <div class="col-span-2">
-                    <h1 class="text-3xl md:text-6xl font-bold flex justify-start md:justify-end text-primary-black"><u>Our Expertise</u></h1>
+                    <h1 class="text-3xl md:text-6xl font-bold flex justify-end text-primary-black"><u>Our Expertise</u></h1>
                     <p class="text-primary-black my-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
                         eos ad in dolore voluptatibus, exercitationem cupiditate. Repellat neque, nostrum modi asperiores
                         deserunt eius veritatis aperiam reprehenderit, necessitatibus esse dolorem? Illo reprehenderit,
