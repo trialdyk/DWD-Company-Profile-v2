@@ -17,7 +17,7 @@
             </div>
         </a>
         <div class="md:flex justify-center mt-4">
-            <a class="border-2 flex font-semibold border-primary-silver py-1 px-8 my-5 mx-2 rounded-full text-base justify-center"
+            <a href="expertise-wood" class="border-2 flex font-semibold border-primary-silver py-1 px-8 my-5 mx-2 rounded-full text-base justify-center"
                 style="color: #E4E5E6">Wood Devision
                 <svg xmlns="http://www.w3.org/2000/svg" class="ml-6" width="28" height="28"
                     viewBox="0 0 32 32">
@@ -29,7 +29,7 @@
                     </g>
                 </svg>
             </a>
-            <a class="border-2 flex font-semibold border-primary-silver py-1 px-8 my-5 mx-2 rounded-full text-base justify-center"
+            <a href="/expertise-it" class="border-2 flex font-semibold border-primary-silver py-1 px-8 my-5 mx-2 rounded-full text-base justify-center"
                 style="color: #E4E5E6">It Devision
                 <svg xmlns="http://www.w3.org/2000/svg" class="ml-6" width="28" height="28"
                     viewBox="0 0 36 36">
