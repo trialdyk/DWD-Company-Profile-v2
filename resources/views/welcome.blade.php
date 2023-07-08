@@ -12,12 +12,12 @@
 <body class="bg-primary-black flex justify-center items-center h-screen w-screen" style="background-color: #030303">
     <div>
         <a href="/home">
-            <img src="{{ asset('assets/img/Logo-Navbar.png') }}" alt="" width="300" class="mx-auto">
+            <img src="{{ asset('assets/img/Logo-Navbar.png') }}" alt="" class="mx-auto w-64 md:w-96">
         </a>
-        <div class="flex">
-            <a href="/expertise-wood" class="border-2 font-semibold flex border-primary-silver py-2 px-14 my-5 rounded-full text-xl"
-                style="color: #E4E5E6; margin-right: 15rem">Wood Division
-                <svg xmlns="http://www.w3.org/2000/svg" class="ml-6" width="32" height="32"
+        <div class="md:flex">
+            <a class="border-2 flex font-semibold border-primary-silver py-1 px-8 my-5 lg:mx-36 md:mx-20 rounded-full mx-auto text-base justify-center"
+                style="color: #E4E5E6">Wood Devision
+                <svg xmlns="http://www.w3.org/2000/svg" class="ml-6" width="28" height="28"
                     viewBox="0 0 32 32">
                     <g fill="currentColor">
                         <path
@@ -27,10 +27,9 @@
                     </g>
                 </svg>
             </a>
-            <a
-                class="border-2 flex font-semibold border-primary-silver py-2 px-14 my-5 rounded-full mx-auto text-xl"
+            <a class="border-2 flex font-semibold border-primary-silver py-1 px-8 my-5 lg:mx-36 md:mx-20 rounded-full mx-auto text-base justify-center"
                 style="color: #E4E5E6">It Devision
-                <svg xmlns="http://www.w3.org/2000/svg" class="ml-6" width="32" height="32"
+                <svg xmlns="http://www.w3.org/2000/svg" class="ml-6" width="28" height="28"
                     viewBox="0 0 36 36">
                     <path fill="currentColor" d="M9.6 22.88V10.6h14.8L25.98 9H8v13.88h1.6z"
                         class="clr-i-outline clr-i-outline-path-1" />
