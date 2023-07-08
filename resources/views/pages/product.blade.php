@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title','Product')
 @section('content')
     <!-- Head -->
     <section class="bg-primary-black text-primary-silver min-h-[344px] py-[2.5rem] px-[15px] md:pl-[65px] w-full">

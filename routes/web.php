@@ -51,3 +51,10 @@ Route::get('/contact',function(){
 Route::get('/navmobile',function(){
     return view('pages.navmobile');
 })->name('navmobile');
+
+
+Route::prefix('/dashboard')->name('dashboard.')->group(function(){
+    Route::get('/',function(){
+        return view('');
+    });
+});

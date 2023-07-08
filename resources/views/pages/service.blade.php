@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title','Service')
 @section('content')
     <!-- Head -->
     <section class="bg-primary-black text-primary-silver h-[344px] py-[1.5rem] md:py-[2.5rem] px-[20px] md:px-[65px] w-full">
