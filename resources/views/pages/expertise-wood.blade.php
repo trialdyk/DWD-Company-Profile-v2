@@ -1,11 +1,11 @@
 @extends('layouts.app')
-
+@section('title','Expertise Wood')
 @section('content')
     <!-- Head -->
     <section class="bg-[url('/assets/img/Group 108.png')] text-primary-silver h-[344px] py-[2.5rem] px-[20px] md:px-[65px] w-full"
         style="background-image: url('/assets/img/Group 108.png')">
-        <h1 class="mb-6 text-3xl md:text-6xl font-bold flex justify-center">Expertise Wood</h1>
-        <p class="flex justify-center text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+        <h1 class="mb-6 text-3xl md:text-6xl font-bold flex justify-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Expertise Wood</h1>
+        <p class="flex justify-center text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
             consectetur sint quis impedit eum ad, consequatur minus blanditiis adipisci vitae, dolor, totam pariatur nostrum
             numquam. Omnis aliquam tempore quasi facilis totam dicta accusamus exercitationem, reprehenderit aliquid autem
             sit aut consectetur quo repudiandae praesentium dolore magnam quibusdam aperiam adipisci nihil. Voluptatibus,
@@ -18,7 +18,7 @@
     <section class="px-[20px] md:px-[65px] my-[65px]">
         <div class="my-4">
             <div class="grid grid-cols-1 md:grid-cols-9 lg:grid-cols-3">
-                <div class="relative lg:col-span-1 md:col-span-4">
+                <div class="relative lg:col-span-1 md:col-span-4" data-aos="fade-right" data-aos-duration="600" data-aos-delay="400">
                     <div class="w-[12rem] h-[8rem] lg:w-[16rem] lg:h-[10rem] md:w-[12rem] md:h-[8rem] absolute top-[4rem] md:top-[7rem]">
                         <img src="{{ asset('assets/img/Ide Kerajinan Tangan Dari Kayu Bekas 5.jpg') }}" alt=""
                             class="rounded-md h-full w-full">
@@ -36,8 +36,8 @@
 
                 </div>
                 <div class="lg:col-span-2 md:col-span-5">
-                    <h1 class="text-3xl md:text-6xl font-bold flex justify-start text-primary-black"><u>Our Expertise</u></h1>
-                    <p class="text-primary-black my-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+                    <h1 data-aos="fade-left" data-aos-duration="600" data-aos-delay="500" class="text-3xl md:text-6xl font-bold flex justify-start text-primary-black"><u>Our Expertise</u></h1>
+                    <p data-aos="fade-left" data-aos-duration="600" data-aos-delay="600" class="text-primary-black my-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
                         eos ad in dolore voluptatibus, exercitationem cupiditate. Repellat neque, nostrum modi asperiores
                         deserunt eius veritatis aperiam reprehenderit, necessitatibus esse dolorem? Illo reprehenderit,
                         laborum commodi eveniet alias quibusdam quas quidem est non optio aperiam cupiditate molestiae nulla
@@ -50,9 +50,9 @@
         </div>
         <div class="my-4">
             <div class="grid grid-cols-1 md:grid-cols-3 my-8">
-                <div class="col-span-2">
-                    <h1 class="text-3xl md:text-6xl font-bold flex justify-end text-primary-black"><u>Our Expertise</u></h1>
-                    <p class="text-primary-black my-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+                <div class="col-span-2 text-end">
+                    <h1 data-aos="fade-right" data-aos-duration="600" data-aos-delay="500" class="text-3xl md:text-6xl font-bold flex justify-end text-primary-black"><u>Our Expertise</u></h1>
+                    <p data-aos="fade-right" data-aos-duration="600" data-aos-delay="600" class="text-primary-black my-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
                         eos ad in dolore voluptatibus, exercitationem cupiditate. Repellat neque, nostrum modi asperiores
                         deserunt eius veritatis aperiam reprehenderit, necessitatibus esse dolorem? Illo reprehenderit,
                         laborum commodi eveniet alias quibusdam quas quidem est non optio aperiam cupiditate molestiae nulla
@@ -61,7 +61,7 @@
                         voluptas quod voluptatibus, mollitia vel. Earum, deleniti veritatis, aperiam cupiditate, fugit quia
                         nulla ullam voluptatum ut quaerat eligendi neque!</p>
                 </div>
-                <div class="relative col-span-1 mx-5 md:mx-12 my-3">
+                <div class="relative col-span-1 mx-5 md:mx-12 my-3" data-aos="fade-left" data-aos-duration="600" data-aos-delay="400">
                     <div class="w-[10rem] h-[7rem] absolute top-[7rem] left-[6rem]">
                         <img src="{{ asset('assets/img/Ide Kerajinan Tangan Dari Kayu Bekas 5.jpg') }}" alt=""
                             class="rounded-md h-full w-full">
