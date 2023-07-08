@@ -10,12 +10,14 @@
 </head>
 
 <body class="bg-primary-black flex justify-center items-center h-screen w-screen" style="background-color: #030303">
-    <div>
+    <div class="flex flex-col items-center justify-center h-screen">
         <a href="/home">
-            <img src="{{ asset('assets/img/Logo-Navbar.png') }}" alt="" class="mx-auto w-64 md:w-96">
+            <div class="border-2 border-white rounded-full flex items-center justify-center w-80 h-80">
+                <img src="{{ asset('assets/img/Logo-Navbar.png') }}" alt="" class="w-64 mt-3">
+            </div>
         </a>
-        <div class="md:flex">
-            <a class="border-2 flex font-semibold border-primary-silver py-1 px-8 my-5 lg:mx-36 md:mx-20 rounded-full mx-auto text-base justify-center"
+        <div class="md:flex justify-center mt-4">
+            <a class="border-2 flex font-semibold border-primary-silver py-1 px-8 my-5 mx-2 rounded-full text-base justify-center"
                 style="color: #E4E5E6">Wood Devision
                 <svg xmlns="http://www.w3.org/2000/svg" class="ml-6" width="28" height="28"
                     viewBox="0 0 32 32">
@@ -27,7 +29,7 @@
                     </g>
                 </svg>
             </a>
-            <a class="border-2 flex font-semibold border-primary-silver py-1 px-8 my-5 lg:mx-36 md:mx-20 rounded-full mx-auto text-base justify-center"
+            <a class="border-2 flex font-semibold border-primary-silver py-1 px-8 my-5 mx-2 rounded-full text-base justify-center"
                 style="color: #E4E5E6">It Devision
                 <svg xmlns="http://www.w3.org/2000/svg" class="ml-6" width="28" height="28"
                     viewBox="0 0 36 36">
@@ -43,6 +45,7 @@
             </a>
         </div>
     </div>
+
 
     <script src="{{ asset('resources/js/app.js') }}"></script>
 </body>
