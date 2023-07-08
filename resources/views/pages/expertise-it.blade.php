@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title''Expertise IT')
+@section('title','Expertise IT')
 @section('content')
     <!-- Head -->
     <section class="bg-[url('/assets/img/Group 108.png')] text-primary-silver h-[344px] py-[2.5rem] px-[20px] md:px-[65px] w-full"
