@@ -72,7 +72,7 @@
 <body class="bg-primary-silver overflow-x-hidden w-screen" style="font-family: 'Roboto', sans-serif;">
     @include('layouts.navbar')
     @include('layouts.mobile-navbar')
-    <div class="">
+    <div class="overflow-x-hidden w-screen">
         @yield('content')
     </div>
     @include('layouts.footer')
