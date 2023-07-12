@@ -1,8 +1,7 @@
 @extends('layouts.app')
 @section('title', 'About')
 @section('content')
-    <div>
-        <div class="container p-12 pb-0">
+        <div class="w-full p-12 pb-0">
             <div class="grid grid-cols-2 my-4">
                 <div class="" data-aos="fade-left" data-aos-duration="1000">
                     <img src="{{ asset('assets/img/maxresdefault.jpg') }}" alt="" class="rounded-md" srcset="">
@@ -71,5 +70,4 @@
                 </div>
             </div>
         </div>
-    </div>
 @endsection

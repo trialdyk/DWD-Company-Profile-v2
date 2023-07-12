@@ -23,7 +23,7 @@
         </ul>
     </div>
     <div class="flex mt-6 mb-3 justify-center">
-        <h1 class="text-sm md:text-lg lg:text-xl">Copyright © 2023 - DWD Company. All rights reserved.</h1>
+        <h1 class="text-sm md:text-lg lg:text-xl text-center md:text-left">Copyright © 2023 - DWD Company. All rights reserved.</h1>
     </div>
 </section>
 <!-- End Footer -->

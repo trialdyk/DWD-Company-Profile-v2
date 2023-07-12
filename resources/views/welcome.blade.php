@@ -12,8 +12,8 @@
 <body class="bg-primary-black flex justify-center items-center h-screen w-screen" style="background-color: #030303">
     <div class="flex flex-col items-center justify-center h-screen">
         <a href="/home">
-            <div class="border-2 border-white rounded-full flex items-center justify-center w-80 h-80">
-                <img src="{{ asset('assets/img/Logo-Navbar.png') }}" alt="" class="w-64 mt-3">
+            <div class="border-2 border-white rounded-full flex items-center justify-center w-80 h-80 lg:w-96 lg:h-96">
+                <img src="{{ asset('assets/img/Logo-Navbar.png') }}" alt="" class="w-64 lg:w-80 mt-3">
             </div>
         </a>
         <div class="md:flex justify-center mt-4">

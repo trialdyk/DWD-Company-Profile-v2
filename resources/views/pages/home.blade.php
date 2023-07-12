@@ -1,8 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Home')
 @section('content')
-    <div>
-        <div class="container">
+        <div class="w-full">
             <div class="grid grid-cols-1 md:grid-cols-2 p-4 md:p-12 my-4">
                 <div class="">
                     <h1 class="text-2xl md:text-4xl font-bold" data-aos="fade-down" data-aos-duration="800" data-aos-delay="700">Welcome To DWD Company</h1>
@@ -33,7 +32,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="600">
+                <div class="flex" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="600">
                     <img src="{{ asset('assets/img/maxresdefault.jpg') }}" alt="" class="rounded-md" srcset="">
                 </div>
             </div>
@@ -257,7 +256,6 @@
                 </div>
             </div>
         </div>
-    </div>
 @endsection
 @section('style')
     <link rel="stylesheet" href="{{ asset('assets/corousel/unpkg.com_swiper@8.1.6_swiper-bundle.min.css') }}">

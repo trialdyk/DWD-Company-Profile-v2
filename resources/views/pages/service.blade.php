@@ -20,7 +20,7 @@
     <!-- Content -->
     <section class="px-[65px] my-[65px]">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-36 mt-[5rem] md:[12rem]">
-            <div class="" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">
+            <div class="flex justify-center" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">
                 <div class="relative z-1 mb-[8rem] md:mb-0">
                     <div
                         class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[11rem] h-[16rem] md:w-[13rem] md:h-[19rem] lg:w-[16rem] lg:h-[23rem]">
@@ -50,7 +50,7 @@
                 </p>
                 <button class="bg-[#D9D9D9] flex p-2 rounded-md mt-12" data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000">
                     <p class="mr-4">Learn More</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
                         <path fill="currentColor" fill-rule="evenodd"
                             d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                     </svg>
@@ -72,13 +72,13 @@
                 </p>
                 <button data-aos="fade-right" data-aos-duration="800" data-aos-delay="900" class="bg-[#D9D9D9] flex p-2 rounded-md mt-12">
                     <p class="mr-4">Learn More</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
                         <path fill="currentColor" fill-rule="evenodd"
                             d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                     </svg>
                 </button>
             </div>
-            <div class="" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="600">
+            <div class="flex justify-center" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="600">
                 <div class="relative z-1 mb-[8rem] md:mb-0">
                     <div
                         class="bg-black text-white rounded-md shadow-primary-black shadow-lg w-[11rem] h-[16rem] md:w-[13rem] md:h-[19rem] lg:w-[16rem] lg:h-[23rem]">
