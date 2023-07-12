@@ -65,8 +65,8 @@
             max-width: 1000px;
             transition: max-width 0.6s;
         }
-    </style>
-    @yield('style')
+        </style>
+        @yield('style')
 </head>
 
 <body class="bg-primary-silver overflow-x-hidden w-screen" style="font-family: 'Roboto', sans-serif;">
