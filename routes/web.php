@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Dashboard\ProductController;
+use App\Http\Controllers\Home\HomeProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,36 +27,33 @@ Route::get('/about', function () {
     return view('pages.about');
 })->name('about');
 
-Route::get('/service',function() {
+Route::get('/service', function () {
     return view('pages.service');
 })->name('service');
 
-Route::get('/expertise-it',function () {
+Route::get('/expertise-it', function () {
     return view('pages.expertise-it');
 })->name('expertise.it');
 
-Route::get('/expertise-wood',function () {
+Route::get('/expertise-wood', function () {
     return view('pages.expertise-wood');
 })->name('expertise.wood');
 
-Route::get('/product',function() {
-    return view('pages.product');
-})->name('product');
 
-Route::get('/detail-product', function () {
-    return view('pages.detail-product');
-})->name('product.detail');
+Route::get('/product', [HomeProductController::class, 'index'])->name('product');
 
-Route::get('/contact',function(){
+Route::get('/contact', function () {
     return view('pages.contact');
 })->name('contact');
-Route::get('/navmobile',function(){
+Route::get('/navmobile', function () {
     return view('pages.navmobile');
 })->name('navmobile');
 
 
-Route::prefix('/dashboard')->name('dashboard.')->group(function(){
-    Route::get('/',function(){
+Route::prefix('/dashboard')->name('dashboard.')->group(function () {
+    Route::get('/', function () {
         return view('');
     });
 });
+
+Route::resource('dashboard-products', ProductController::class);
